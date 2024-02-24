@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: VideoLAN.VLC.win64-arm
+PackageVersion: 20240224-0438
+PackageLocale: en-US
+Publisher: VideoLAN
+PackageName: VLC media player
+License: GPL-2.0
+ShortDescription: VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
