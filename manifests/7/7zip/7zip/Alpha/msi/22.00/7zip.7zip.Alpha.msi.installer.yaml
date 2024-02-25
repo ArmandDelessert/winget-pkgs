@@ -5,6 +5,7 @@ PackageIdentifier: 7zip.7zip.Alpha.msi
 PackageVersion: "22.00"
 MinimumOSVersion: 10.0.0.0
 InstallerType: wix
+ReleaseDate: 2022-06-15
 Scope: machine
 InstallModes:
 - interactive
