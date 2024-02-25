@@ -3,12 +3,60 @@
 
 PackageIdentifier: VideoLAN.VLC.nightly-win64-arm-llvm
 PackageVersion: 20240224-0438
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Commands:
+- vlc
+FileExtensions:
+- "264"
+- 3ga
+- 3gp
+- aac
+- avi
+- cda
+- dash
+- dvr
+- flac
+- ifo
+- m2t
+- m2ts
+- m3u8
+- m4v
+- mkv
+- mov
+- mp3
+- mp4
+- mpg
+- mts
+- ogg
+- ogv
+- opus
+- pls
+- rec
+- rmvb
+- snd
+- sub
+- ts
+- vob
+- webm
+- wma
+- wmv
+- zab
 Installers:
-- InstallerLocale: en-US
-  Architecture: arm64
+- Architecture: arm64
   InstallerType: wix
   InstallerUrl: https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/20240224-0438/vlc-4.0.0-dev-win64-410d5999.msi
   InstallerSha256: 9F33773C4DDD16818A9C391F41110A670F7689095ACE5DECA6C5DAF3223D1C87
+  InstallerSwitches:
+    Silent: /quiet
+    SilentWithProgress: /passive
   ProductCode: '{4F9AB792-187B-47B7-82AB-BC05482F3FA9}'
 - Architecture: arm64
   InstallerType: nullsoft
