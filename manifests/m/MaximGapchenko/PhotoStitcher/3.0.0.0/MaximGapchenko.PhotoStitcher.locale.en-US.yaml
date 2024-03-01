@@ -1,0 +1,29 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: MaximGapchenko.PhotoStitcher
+PackageVersion: 3.0.0.0
+PackageLocale: en-US
+Publisher: Maxim Gapchenko
+PublisherUrl: https://www.photostitcher.com/
+PublisherSupportUrl: https://www.photostitcher.com/support.html
+Author: Maxim Gapchenko
+PackageName: PhotoStitcher
+PackageUrl: https://www.photostitcher.com/download.html
+License: Proprietary
+Copyright: © 2012 - 2024 www.photostitcher.com All Rights Reserved.
+ShortDescription: PhotoStitcher - Panoramic Image Stitcher
+Description: PhotoStitcher will automatically combine overlapping photos to produce perfect panoramic image.
+Tags:
+- panorama
+- panoramic
+- photo
+- stitch
+ReleaseNotes: |-
+  - Improved stitching algorithms
+  - Lots of minor improvements and bugs fixes
+  - Added Apple M1 CPU native support
+ReleaseNotesUrl: https://www.photostitcher.com/download.html
+PurchaseUrl: https://www.photostitcher.com/order.html
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

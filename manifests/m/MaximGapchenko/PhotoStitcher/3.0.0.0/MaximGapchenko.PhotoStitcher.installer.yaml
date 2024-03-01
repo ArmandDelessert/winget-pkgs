@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: MaximGapchenko.PhotoStitcher
+PackageVersion: 3.0.0.0
+InstallerType: inno
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.photostitcher.com/windows/PhotoStitcherSetup.exe
+  InstallerSha256: 751541A4DB2E856F924C9527BB71B403ABC8E8F51A2AFFB3A504B2BC5EAB584F
+ManifestType: installer
+ManifestVersion: 1.6.0
