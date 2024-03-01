@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Backblaze.BackblazeBackup
+PackageVersion: 9.0.1.767
+InstallerType: exe
+Installers:
+- Architecture: x86
+  InstallerUrl: https://secure.backblaze.com/win32/install_backblaze.exe
+  InstallerSha256: 5BA6D375CD6A7EE8C72A5C37A6DA4B203455D999BE507E06B0190EA0DDE54C74
+ManifestType: installer
+ManifestVersion: 1.6.0

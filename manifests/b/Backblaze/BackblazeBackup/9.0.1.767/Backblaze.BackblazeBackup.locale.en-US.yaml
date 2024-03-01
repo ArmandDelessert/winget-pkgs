@@ -1,0 +1,22 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: Backblaze.BackblazeBackup
+PackageVersion: 9.0.1.767
+PackageLocale: en-US
+Publisher: Backblaze
+PublisherUrl: https://www.backblaze.com/
+PublisherSupportUrl: https://www.backblaze.com/help
+PrivacyUrl: https://www.backblaze.com/company/policy/privacy
+PackageName: Backblaze Backup
+License: Proprietary
+LicenseUrl: https://www.backblaze.com/company/policy/terms-of-service
+Copyright: Copyright © 2007-2024. Backblaze
+ShortDescription: 'Backblaze Backup: Cloud-based, unlimited storage backup solution with end-to-end encryption for data recovery.'
+Tags:
+- backup
+- cloud
+- recovery
+- storage
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
