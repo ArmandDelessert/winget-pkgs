@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Ifolor.IfolorDesigner
+PackageVersion: 5.12.2.531
+InstallerType: nullsoft
+Installers:
+- Architecture: x86
+  InstallerUrl: https://chkr-download.ifolor.net/download/Designer/ifolor-DesignCenter.exe
+  InstallerSha256: 38B34BC5D42BA82178C869847708069A01377290AE445D7B01D4CB0DF201A444
+ManifestType: installer
+ManifestVersion: 1.6.0

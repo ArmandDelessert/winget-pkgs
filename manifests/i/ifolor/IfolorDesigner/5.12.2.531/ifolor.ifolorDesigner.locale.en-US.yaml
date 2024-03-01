@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: ifolor.IfolorDesigner
+PackageVersion: 5.12.2.531
+PackageLocale: en-US
+Publisher: ifolor
+PublisherUrl: https://www.ifolor.ch/
+PrivacyUrl: https://www.ifolor.ch/fr/protection-donnees
+PackageName: ifolor Designer
+PackageUrl: https://www.ifolor.ch/fr/downloads/ifolor-designer-pc
+License: Proprietary
+Copyright: ifolor
+ShortDescription: ifolor Designer is a free software for creating personalized photo products offline, with various design options and templates.
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
