@@ -1,0 +1,23 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: UserBenchmark.UserBenchmark
+PackageVersion: 3.2.7.0
+PackageLocale: en-US
+Publisher: UserBenchmark
+PublisherUrl: https://www.userbenchmark.com/
+PrivacyUrl: https://www.userbenchmark.com/page/privacy
+Author: UserBenchmark
+PackageName: UserBenchmark
+PackageUrl: https://www.userbenchmark.com/Software
+License: Proprietary
+Copyright: UserBenchmark
+ShortDescription: Speed test your PC in less than a minute
+Description: UserBenchmark will test your PC and compare the results to other users with the same components. You can quickly size up your PC, identify hardware problems and explore the best value for money upgrades.
+Tags:
+- benchmark
+- hardware
+- performance
+- test
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
