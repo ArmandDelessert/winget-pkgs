@@ -1,0 +1,30 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: MaximGapchenko.iResizer
+PackageVersion: 3.0.0.0
+PackageLocale: en-US
+Publisher: Maxim Gapchenko
+PublisherUrl: https://www.iresizer.com/
+PublisherSupportUrl: https://www.iresizer.com/support.html
+Author: Maxim Gapchenko
+PackageName: iResizer
+PackageUrl: https://www.iresizer.com/download.html
+License: Proprietary
+Copyright: © 2011 - 2024 www.iresizer.com All Rights Reserved.
+ShortDescription: iResizer - Intelligent Resizer
+Description: Intelligent Resizer enables new smart ways of resizing images without deforming or cropping the content.
+Tags:
+- photo
+- rescale
+- resize
+- resizer
+ReleaseNotes: |-
+  - Major algorithm improvements
+  - Overal stability improvements
+  - Added transparency support
+  - Interface improvements
+ReleaseNotesUrl: https://www.iresizer.com/download.html
+PurchaseUrl: https://www.iresizer.com/order.html
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
