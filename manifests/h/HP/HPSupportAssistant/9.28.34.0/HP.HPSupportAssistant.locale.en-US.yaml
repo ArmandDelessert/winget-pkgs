@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: HP.HPSupportAssistant
+PackageVersion: 9.28.34.0
+PackageLocale: en-US
+Publisher: HP Inc.
+PublisherUrl: https://www.hp.com/
+PublisherSupportUrl: https://support.hp.com/
+PrivacyUrl: https://www.hp.com/us-en/privacy/privacy-central.html
+PackageName: HP Support Assistant
+PackageUrl: https://support.hp.com/help/hp-support-assistant
+License: Proprietary
+Copyright: Copyright © 2023 HP Development Company, LP.
+ShortDescription: HP Support Assistant is a software for HP computers and printers. It provides resources, tools, updates, and troubleshoots common issues.
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

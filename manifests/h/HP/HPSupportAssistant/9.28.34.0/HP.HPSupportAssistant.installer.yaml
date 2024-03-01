@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: HP.HPSupportAssistant
+PackageVersion: 9.28.34.0
+InstallerType: exe
+Installers:
+- Architecture: x64
+  InstallerUrl: https://ftp.hp.com/pub/softpaq/sp148501-149000/sp148716.exe
+  InstallerSha256: C1D4FB3389910652B2C0AB066E69E4F277A5AF60FBFECCED02072675733E5739
+ManifestType: installer
+ManifestVersion: 1.6.0
