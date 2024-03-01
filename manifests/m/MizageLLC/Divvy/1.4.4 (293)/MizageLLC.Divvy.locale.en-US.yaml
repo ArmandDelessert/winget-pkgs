@@ -1,0 +1,24 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: MizageLLC.Divvy
+PackageVersion: 1.4.4 (293)
+PackageLocale: en-US
+Publisher: Mizage LLC
+PublisherUrl: https://mizage.com/
+PublisherSupportUrl: https://mizage.com/downloads/DivvyWinHelp.pdf
+PrivacyUrl: https://mizage.com/privacy.html
+PackageName: Divvy
+PackageUrl: https://mizage.com/windivvy/
+License: Proprietary
+Copyright: Copyright 2015 Mizage LLC
+ShortDescription: Divvy is an entirely new way of managing your workspace. It allows you to quickly and efficiently “divvy up” your screen into exact portions.
+Description: |-
+  Problem: Managing windows can be frustrating, requiring precision control of your mouse or trackpad for clicking, dragging, pushing and pulling your windows to the size and position you desire. Even with all this work, it’s very difficult to get windows exactly where you want them, so most of the time windows are left scattered all over the screen. The solution? Divvy.
+  Solution: Divvy is an entirely new way of managing your workspace. It allows you to quickly and efficiently “divvy up” your screen into exact portions.
+  With Divvy, it’s as simple as a single click and drag in the Divvy interface and your window will be resized and moved to a relative portion of the screen. If that seems like too much work, you can go ahead and create as many different shortcuts as you’d like that resize and move your windows.
+  Divvy is designed to be quick, simple and elegant. We want it to stay out of your way as much as possible while providing the most powerful window management available today. Take a look at the screencast over there to the right to get a better idea of what we’re talking about.
+PurchaseUrl: https://mizage.onfastspring.com/
+InstallationNotes: https://mizage.com/downloads/DivvyWinHelp.pdf
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

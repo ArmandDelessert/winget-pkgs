@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: MizageLLC.Divvy
+PackageVersion: 1.4.4 (293)
+InstallerType: nullsoft
+Installers:
+- Architecture: x86
+  InstallerUrl: https://mizage.com/downloads/InstallDivvy.exe
+  InstallerSha256: E1E51A0FB54307E4438E2CC77D4B10E4353B01E0DC036ECC5523C932B054F529
+  AppsAndFeaturesEntries:
+  - DisplayName: Divvy
+    DisplayVersion: 1.4.4 (263)
+    Publisher: Mizage LLC
+ManifestType: installer
+ManifestVersion: 1.6.0
