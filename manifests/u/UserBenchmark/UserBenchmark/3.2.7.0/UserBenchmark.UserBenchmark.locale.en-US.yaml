@@ -1,0 +1,23 @@
+# Created using wingetcreate 1.12.8.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: UserBenchmark.UserBenchmark
+PackageVersion: 3.2.7.0
+PackageLocale: en-US
+Publisher: UserBenchmark
+PublisherUrl: https://www.userbenchmark.com/
+Author: UserBenchmark
+PackageName: UserBenchmark
+PackageUrl: https://www.userbenchmark.com/Software
+License: Freeware
+Copyright: UserBenchmark
+PrivacyUrl: https://www.userbenchmark.com/page/privacy
+ShortDescription: Benchmark Software
+Description: UserBenchmark's PC benchmarking tool.
+Tags:
+- benchmark
+- hardware
+- performance
+- test
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
