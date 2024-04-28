@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: Nvidia.GeForceGameReadyDriver
+PackageVersion: "552.22"
+PackageLocale: en-US
+Publisher: NVIDIA Corporation
+PublisherUrl: https://www.nvidia.com/en-us/
+PublisherSupportUrl: https://www.nvidia.com/en-us/support/
+PrivacyUrl: https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+PackageName: NVIDIA Graphics Driver
+License: Proprietary
+LicenseUrl: https://www.nvidia.com/en-us/drivers/nvidia-license/
+Copyright: Copyright © 2011-2024 NVIDIA Corporation
+CopyrightUrl: https://www.nvidia.com/en-eu/about-nvidia/terms-of-service/
+ShortDescription: NVIDIA Game Ready drivers for GeForce-series cards ('Maxwell' and newer)
+ReleaseNotesUrl: https://us.download.nvidia.com/Windows/552.22/552.22-win11-win10-release-notes.pdf
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
