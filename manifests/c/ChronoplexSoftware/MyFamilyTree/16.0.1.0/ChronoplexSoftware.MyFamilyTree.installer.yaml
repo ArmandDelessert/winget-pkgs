@@ -1,0 +1,67 @@
+# Created using wingetcreate 1.10.3.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: ChronoplexSoftware.MyFamilyTree
+PackageVersion: 16.0.1.0
+InstallerLocale: en-US
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: msi
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+FileExtensions:
+- aft
+- afz
+- agz
+- aq
+- dat
+- family
+- familyx
+- familyxs
+- fbk
+- fdb
+- fow
+- ftb
+- ftw
+- gdz
+- ged
+- indiv2.dat
+- mft
+- nam
+- paf
+- pjc
+- rm8
+- rmb8
+- rmg
+- rmgb
+- rmgc
+- sqz
+- tmg
+- tre
+- uzed
+- ver
+- zed
+- zip
+ReleaseDate: 2026-01-01
+Installers:
+- Architecture: x64
+  InstallerUrl: https://chronoplexsoftware.com/myfamilytree/downloads/myfamilytree16.0.1.0x64.msi
+  InstallerSha256: 6FE9D904FF3194467318CDD870BDAABFB3F630C13F9CC0312446747BB999BB20
+  ProductCode: '{DF44BD6C-00C4-4BCC-8909-904AAE4F44BA}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{DF44BD6C-00C4-4BCC-8909-904AAE4F44BA}'
+    UpgradeCode: '{E49693EE-373F-4790-B8E4-00B03A5BED3E}'
+- Architecture: x86
+  InstallerUrl: https://chronoplexsoftware.com/myfamilytree/downloads/myfamilytree16.0.1.0.msi
+  InstallerSha256: F71585023659095D122CD55224F9943030B445765D1104B72CC7E534ECA147E1
+  ProductCode: '{318BCD23-54BF-434D-B0B5-7FBB59632512}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{318BCD23-54BF-434D-B0B5-7FBB59632512}'
+    UpgradeCode: '{E49693EE-373F-4790-B8E4-00B03A5BED3E}'
+ManifestType: installer
+ManifestVersion: 1.10.0
