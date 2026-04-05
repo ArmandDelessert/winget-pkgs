@@ -15,15 +15,16 @@ ShortDescription: Your own search engine – Full-text search across your files,
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
-  What's Changed
-  - Include parent directory in local file titles.
-  - Add POST /api/batch endpoint for bulk add/delete/get operations.
-  - Add custom headers support to browser extension.
-  - Add light mode and theme switcher to browser extension.
-  - Switch to mode-watcher for theme management.
-  - Fix Svelte 5 proxy being stored in Chrome storage for customHeaders.
-  - Strip debug symbols from release binary.
-  - Fix include full end date in date range search.
+  New contributions
+  - Bump softprops/action-gh-release from 2.5.3 to 2.6.1 in the gha-deps group by @dependabot[bot] in #228
+  - [fix] include parent directory in local file titles by @FlameFlag in #234
+  - [feat] add POST /api/batch endpoint for bulk add/delete/get operations by @FlameFlag in #233
+  - [feat] add custom headers support to browser extension by @FlameFlag in #238
+  - [feat] add light mode & theme switcher to browser extension by @FlameFlag in #239
+  - [feat] switch to mode-watcher for theme management by @FlameFlag in #240
+  - [fix] prevent Svelte 5 proxy from being stored in Chrome storage for customHeaders by @FlameFlag in #241
+  - [enh] strip debug symbols from release binary by @FlameFlag in #242
+  - [fix] include full end date in date range search by @mvanhorn in #244
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.10.0
 Documentations:
 - DocumentLabel: Documentation
