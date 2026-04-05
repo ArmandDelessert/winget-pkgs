@@ -16,18 +16,22 @@ Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
   What's Changed
-  - Add local file indexing support.
-  - Fix all golangci-lint errcheck and unused warnings.
-  - Add Dependabot support.
-  - Make extension use same design as app and website.
-  - Fix Docker publish workflow and Dockerfile.
-  - Improve list-urls performances and fix missing entries.
-  - Add PR lint workflow for Go, NPM format, and no merge commits.
-  - Update to Vite 8.0.0 and use Rolldown.
-  - Fix patch workspace shebangs in Nix frontend derivation.
-  - Add CI build for hister, @hister/website and @hister/ext for PRs.
-  - Add ability to index and view local files.
-  - Update docs on how local indexing works.
+  Added local file indexing support
+  Other contributions
+  - [fix] fix all golangci-lint errcheck and unused warnings by @FlameFlag in #182
+  - [enh] add dependabot support by @FlameFlag in #185
+  - Update Nix hashes by @github-actions[bot] in #200
+  - [enh] make ext use same design as app and website by @FlameFlag in #199
+  - [fix] fix Docker publish workflow and Dockerfile by @FlameFlag in #205
+  - [fix] improve list-urls performances and fix missing entries by @scumjr in #206
+  - [ci] add PR lint workflow for Go, NPM format, and no merge commits by @FlameFlag in #211
+  - [feat] update to vite 8.0.0 and use rolldown by @FlameFlag in #212
+  - [fix] patch workspace shebangs in nix frontend derivation by @FlameFlag in #213
+  - Update Nix hashes by @github-actions[bot] in #214
+  - [ci] add build for hister, @hister/website and @hister/ext for PR's by @FlameFlag in #215
+  - feat: add ability to index and view local files by @jamestthompson3 in #210
+  - docs: update docs on how local indexing works by @jamestthompson3 in #217
+  - [fix] nix/package.nix add files package to build inputs by @FlameFlag in #226
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.9.0
 Documentations:
 - DocumentLabel: Documentation
