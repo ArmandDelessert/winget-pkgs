@@ -14,6 +14,26 @@ LicenseUrl: https://github.com/asciimoo/hister/blob/master/LICENSE
 ShortDescription: Your own search engine – Full-text search across your files, visited sites and beyond.
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
+ReleaseNotes: |-
+  What's Changed
+  - Fix show history when there are no aliases.
+  - Lower request timeout when importing.
+  - Drop entries from index that are now matching skip rules.
+  - Implement result export feature.
+  - Allow multiple URLs in cmd.
+  - Support ctrl clicking results.
+  - Add flake.nix and NixOS, Darwin & Home module.
+  - Add Docker container output via GoReleaser.
+  - Add DuckDuckGo to the result extractors.
+  - Refactor Nix modules.
+  - Register Hister as a search provider in the extension.
+  - Fix alt/option key for navigation on macOS.
+  - Add navigation, color, and result actions to TUI.
+  - Rewrite TUI using Bubble Tea and add configurable hotkeys.
+  - Add sorting by domain.
+  - Add date filtering.
+  - Fix TUI layout stability during resizing and rendering gaps.
+  - Refactor TUI and indexer to use lipgloss consistently.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.4.0
 Documentations:
 - DocumentLabel: Documentation
