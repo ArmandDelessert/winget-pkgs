@@ -14,18 +14,7 @@ LicenseUrl: https://github.com/asciimoo/hister/blob/master/LICENSE
 ShortDescription: Your own search engine – Full-text search across your files, visited sites and beyond.
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
-ReleaseNotes: |-
-  What's Changed
-  - Multi-user support.
-  - Better authentication method for the extension.
-  - Enhanced delete. Queries can be used to delete multiple items. --dry flag.
-  - Reindex does not require server stop anymore.
-  - Enhanced history view.
-  - Extension feedback if the active tab has a matching skip rule.
-  - Add pages/domains to skip rules directly from the extension popup.
-  - Plenty of bugfixes.
-ReleaseNotes: |-
-  Initial release.
+ReleaseNotes: Initial release.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.1.0
 Documentations:
 - DocumentLabel: Documentation
