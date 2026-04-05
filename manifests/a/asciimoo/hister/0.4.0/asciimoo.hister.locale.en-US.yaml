@@ -16,24 +16,26 @@ Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
   What's Changed
-  - Fix show history when there are no aliases.
-  - Lower request timeout when importing.
-  - Drop entries from index that are now matching skip rules.
-  - Implement result export feature.
-  - Allow multiple URLs in cmd.
-  - Support ctrl clicking results.
-  - Add flake.nix and NixOS, Darwin & Home module.
-  - Add Docker container output via GoReleaser.
-  - Add DuckDuckGo to the result extractors.
-  - Refactor Nix modules.
-  - Register Hister as a search provider in the extension.
-  - Fix alt/option key for navigation on macOS.
-  - Add navigation, color, and result actions to TUI.
-  - Rewrite TUI using Bubble Tea and add configurable hotkeys.
-  - Add sorting by domain.
-  - Add date filtering.
-  - Fix TUI layout stability during resizing and rendering gaps.
-  - Refactor TUI and indexer to use lipgloss consistently.
+  - [fix] show history when there are no aliases by @clonejo in #9
+  - [mod] Lower request timeout when importing by @clonejo in #13
+  - [enh] Drop entries from index that are now matching skip rules by @clonejo in #19
+  - implemented result export feature --refs issue #3 by @tfhuhtal in #21
+  - [enh]: allow multiple URLs in cmd by @allendema in #22
+  - [enh]: support ctrl clicking results by @alejoheu in #30
+  - [enh] add flake.nix and nixos, darwin & home module by @FlameFlag in #18
+  - Add docker container output via GoReleaser by @nogweii in #33
+  - [enh] add DuckDuckGo to the result extractors by @scumjr in #36
+  - [mod] refactor nix modules by @FlameFlag in #43
+  - fix: add contents write permissions for creating a PR by @FlameFlag in #50
+  - feat(ext): register hister as a search provider by @SKalt in #44
+  - [fix] make it possible to use alt/option key for navigation on macOS by @FlameFlag in #58
+  - [enh] add navigation, color, and result actions to TUI by @FlameFlag in #60
+  - [enh] rewrite TUI using Bubble Tea and add configurable hotkeys by @FlameFlag in #61
+  - [enh] add sorting by domain by @FlameFlag in #59
+  - [enc] add date filtering by @FlameFlag in #64
+  - [fix] stabilize TUI layout during resizing and fix rendering gaps by @FlameFlag in #65
+  - [fix]: only run workflows in source repo by @allendema in #67
+  - [mod] refactor TUI and indexer to use lipgloss consistently by @FlameFlag in #68
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.4.0
 Documentations:
 - DocumentLabel: Documentation
