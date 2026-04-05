@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: asciimoo.hister
+PackageVersion: 0.5.0
+InstallerType: portable
+Commands:
+- hister
+ReleaseDate: 2026-02-24
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/asciimoo/hister/releases/download/v0.5.0/hister_0.5.0_windows_amd64.exe
+  InstallerSha256: 2245321f2434a638e358774e2c11d7d32d729007ac8be716c29065a6e07a1d86
+ManifestType: installer
+ManifestVersion: 1.12.0
