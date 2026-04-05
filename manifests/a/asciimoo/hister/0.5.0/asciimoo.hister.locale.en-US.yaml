@@ -14,6 +14,16 @@ LicenseUrl: https://github.com/asciimoo/hister/blob/master/LICENSE
 ShortDescription: Your own search engine – Full-text search across your files, visited sites and beyond.
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
+ReleaseNotes: |-
+  What's Changed
+  - Refactor Docker build process and introduce multi-stage distroless images.
+  - Fix case-insensitive search for title/text/field queries.
+  - Fix TUI WebSocket connection.
+  - Display search duration in seconds.
+  - Add rolling release GitHub Action.
+  - Migrate search.js to Svelte.
+  - Add Viper configuration loader with environment variable support for Docker flexibility.
+  - Fix Nix hashes and hash extraction script.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.5.0
 Documentations:
 - DocumentLabel: Documentation
