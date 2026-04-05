@@ -14,6 +14,23 @@ LicenseUrl: https://github.com/asciimoo/hister/blob/master/LICENSE
 ShortDescription: Your own search engine – Full-text search across your files, visited sites and beyond.
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
+ReleaseNotes: |-
+  What's Changed
+  - Add CGO support for release builds.
+  - Add random tips.
+  - Mute grey colors.
+  - Fix use of original query for retrieving priority results.
+  - Fix link opening.
+  - Trim whitespaces.
+  - Do not resolve query aliases in history.
+  - Fix popup overflow.
+  - Fix URL lowercase conversion in lookup.
+  - Add readable preview of results.
+  - Add autocomplete query suggestions.
+  - Refactor result rendering.
+  - Add command line tool reference.
+  - Add priority results for user defined queries.
+  - Add import command.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.2.0
 Documentations:
 - DocumentLabel: Documentation
