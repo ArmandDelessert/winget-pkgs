@@ -16,14 +16,16 @@ Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
   What's Changed
-  - Refactor Docker build process and introduce multi-stage distroless images.
-  - Fix case-insensitive search for title/text/field queries.
-  - Fix TUI WebSocket connection.
-  - Display search duration in seconds.
-  - Add rolling release GitHub Action.
-  - Migrate search.js to Svelte.
-  - Add Viper configuration loader with environment variable support for Docker flexibility.
-  - Fix Nix hashes and hash extraction script.
+  - Refactor Docker build process and introduce multi-stage distroless images by @sinsky in #73
+  - fix: case-insensitive search for title/text/field queries by @doobidoo in #76
+  - [fix] TUI WebSocket connection fails by @FlameFlag in #94
+  - [enh] display search duration in seconds by @scumjr in #99
+  - [enh]: add rolling release gha by @FlameFlag in #96
+  - [enh] prevent claude from making ai slop by @FlameFlag in #102
+  - [enh] migrate search.js to svelte by @FlameFlag in #89
+  - Update Nix vendorHash by @github-actions[bot] in #104
+  - Add Viper configuration loader with environment variable support for Docker flexibility by @sinsky in #100
+  - [fix] update Nix hashes and fix hash extraction script by @FlameFlag in #107
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.5.0
 Documentations:
 - DocumentLabel: Documentation
