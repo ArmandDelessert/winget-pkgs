@@ -16,24 +16,35 @@ Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
   What's Changed
-  - Rewrite Nix packaging following best practices.
-  - Fix pressing tab deletes query on no suggestion, fix inconsistent history.
-  - Enhance server configuration documentation.
-  - Migrate to npm workspaces for managing frontend.
-  - Complete UI redesign (5 parts).
-  - Fix UTF-8 queries in lexer.
-  - Extract dedicated API client package.
-  - Add and use more shadcn-svelte components.
-  - Allow base_url to include subfolder path.
-  - Improve mobile responsiveness and add updated_at timestamps to history.
-  - Fix search results scrolling, input resizing, and keyboard navigation.
-  - Redesign website, rules page, and API docs page with brutalist layout.
-  - Add -f flag to search command (csv, json).
-  - Fix check skip rules client-side during import.
-  - Fix pass access token from config to HTTP client.
-  - Extract mouse handling into dedicated package.
-  - Switch extension to use Vite for build.
-  - Redesign docs page.
+  - refactor(nix): rewrite packaging following best practices by @XYenon in #114
+  - [fix] pressing tab deletes query on no suggestion, fix inconsistent history by @FlameFlag in #117
+  - Enhance server configuration documentation and fix documentation layout by @sinsky in #118
+  - feat: migrate to npm workspaces for manging frontend by @FlameFlag in #121
+  - Part 1/5 of the new redesign by @FlameFlag in #126
+  - Part 2/5 of the new redesign by @FlameFlag in #127
+  - Part 3/5 of the new redesign by @FlameFlag in #128
+  - Part 4/5 of the new redesign by @FlameFlag in #129
+  - Part 5/5 of the new redesign by @FlameFlag in #130
+  - fix(querybuilder): handle UTF-8 queries in lexer by @yshalsager in #132
+  - [refactor] extract dedicated API client package by @FlameFlag in #135
+  - [enh] add & use more shadcn-svelte components by @FlameFlag in #134
+  - Allow base_url to include subfolder path by @singhAmandeep007 in #133
+  - [fix] add client module to nix package inputs by @antifuchs in #137
+  - [enh] improve mobile responsiveness & add updated_at timestamps to history by @FlameFlag in #136
+  - [fix] fix search results scrolling, input resizing, and keyboard nav by @FlameFlag in #138
+  - Update Nix hashes by @github-actions[bot] in #139
+  - [enh] re-design the website by @FlameFlag in #140
+  - better apply brutalist design on the app by @FlameFlag in #141
+  - [enh] redesign rules page with bold brutalist layout by @FlameFlag in #142
+  - [fix] {api -> api-docs} page to avoid conflict with the api endpoint by @FlameFlag in #143
+  - [enh] redesign api-docs page by @FlameFlag in #144
+  - [enh] improve mobile responsiveness by @FlameFlag in #145
+  - [enh] add -f to search (csv, json) by @FlameFlag in #148
+  - [fix] check skip rules client-side during import by @FlameFlag in #152
+  - [fix] pass access token from config to HTTP client by @FlameFlag in #153
+  - [refactor] extract mouse handling into dedicated package by @FlameFlag in #160
+  - [enh] switch ext to use vite for build by @FlameFlag in #162
+  - [enh] redesign docs page by @FlameFlag in #158
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.6.0
 Documentations:
 - DocumentLabel: Documentation
