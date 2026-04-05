@@ -14,6 +14,26 @@ LicenseUrl: https://github.com/asciimoo/hister/blob/master/LICENSE
 ShortDescription: Your own search engine – Full-text search across your files, visited sites and beyond.
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
+ReleaseNotes: |-
+  What's Changed
+  - Rewrite Nix packaging following best practices.
+  - Fix pressing tab deletes query on no suggestion, fix inconsistent history.
+  - Enhance server configuration documentation.
+  - Migrate to npm workspaces for managing frontend.
+  - Complete UI redesign (5 parts).
+  - Fix UTF-8 queries in lexer.
+  - Extract dedicated API client package.
+  - Add and use more shadcn-svelte components.
+  - Allow base_url to include subfolder path.
+  - Improve mobile responsiveness and add updated_at timestamps to history.
+  - Fix search results scrolling, input resizing, and keyboard navigation.
+  - Redesign website, rules page, and API docs page with brutalist layout.
+  - Add -f flag to search command (csv, json).
+  - Fix check skip rules client-side during import.
+  - Fix pass access token from config to HTTP client.
+  - Extract mouse handling into dedicated package.
+  - Switch extension to use Vite for build.
+  - Redesign docs page.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.6.0
 Documentations:
 - DocumentLabel: Documentation
