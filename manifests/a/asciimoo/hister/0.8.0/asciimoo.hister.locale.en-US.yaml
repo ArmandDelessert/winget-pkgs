@@ -15,13 +15,15 @@ ShortDescription: Your own search engine – Full-text search across your files,
 Description: |-
   Hister is a versatile, privacy-focused web search engine designed to index the full content of visited web pages locally. Unlike traditional search engines, it allows you to find specific information within your own browsing history using full-text indexing.
 ReleaseNotes: |-
+  Changelog
+  - [enh] bump version
+  - [fix] reintroduce csp - fixes #180
   What's Changed
-  - Add shared UI components and migrate app and website to use them.
-  - Fix wrap long TOC sidebar text instead of overflowing.
-  - Add syntax highlighting with Shiki.
-  - Add Prettier and EditorConfig across all workspaces.
-  - Migrate to Alpine base and add compose.yml.
-  - Reintroduce CSP.
+  - [feat] add shared UI components and migrate app and website to use them by @FlameFlag in #165
+  - [fix] wrap long TOC sidebar text instead of overflowing by @FlameFlag in #171
+  - [enh] add syntax highlighting with shiki by @FlameFlag in #169
+  - [enh] add Prettier and EditorConfig across all workspaces by @FlameFlag in #168
+  - [enh] migrate to Alpine base & add compose.yml by @FlameFlag in #175
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.8.0
 Documentations:
 - DocumentLabel: Documentation
