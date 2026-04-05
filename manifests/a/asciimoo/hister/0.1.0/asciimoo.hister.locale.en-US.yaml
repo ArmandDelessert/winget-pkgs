@@ -24,6 +24,8 @@ ReleaseNotes: |-
   - Extension feedback if the active tab has a matching skip rule.
   - Add pages/domains to skip rules directly from the extension popup.
   - Plenty of bugfixes.
+ReleaseNotes: |-
+  Initial release.
 ReleaseNotesUrl: https://github.com/asciimoo/hister/releases/tag/v0.1.0
 Documentations:
 - DocumentLabel: Documentation
