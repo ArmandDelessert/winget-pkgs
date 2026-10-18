@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ArmandDelessert.HusqA-Cockpit
+PackageVersion: 0.0.0-dev.13
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: HusqaCockpit.exe
+ArchiveBinariesDependOnPath: true
+Installers:
+- Architecture: arm64
+  InstallerUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows/releases/download/dev/HusqaCockpit-0.0.0-dev.13-win-arm64.zip
+  InstallerSha256: e205c186a9fb4b4aa7a05446a7c92ff671c787f0b1ae236f9e4a39db2c086839
+- Architecture: x64
+  InstallerUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows/releases/download/dev/HusqaCockpit-0.0.0-dev.13-win-x64.zip
+  InstallerSha256: 92b9e933cfe4a70e56857cc1087dc4bc7a7585f47833810a84200cf0a8287c3b
+ManifestType: installer
+ManifestVersion: 1.12.0

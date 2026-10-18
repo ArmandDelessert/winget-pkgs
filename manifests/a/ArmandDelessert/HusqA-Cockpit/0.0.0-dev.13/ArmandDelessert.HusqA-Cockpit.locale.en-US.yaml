@@ -1,0 +1,24 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArmandDelessert.HusqA-Cockpit
+PackageVersion: 0.0.0-dev.13
+PackageLocale: en-US
+Publisher: Armand Delessert
+PublisherUrl: https://armanddelessert.github.io/
+PublisherSupportUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows
+Author: Armand Delessert
+PackageName: HusqA Cockpit
+PackageUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows
+License: MIT
+LicenseUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows/blob/main/LICENSE
+Copyright: Copyright © 2026 Armand Delessert
+CopyrightUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows/blob/main/LICENSE
+ShortDescription: Unofficial Windows client for Husqvarna Automower robotic lawnmowers
+Description: "An unofficial Windows client for Husqvarna Automower® robotic lawnmowers. It shows all the mowers of a Husqvarna account side by side, lets you control them from the desktop and raises Windows notifications when one of them needs attention. It uses the official Automower Connect API."
+Tags:
+- Husqvarna
+- Automower
+ReleaseNotesUrl: https://github.com/ArmandDelessert/husqvarna-automower-windows/releases/tag/dev
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
