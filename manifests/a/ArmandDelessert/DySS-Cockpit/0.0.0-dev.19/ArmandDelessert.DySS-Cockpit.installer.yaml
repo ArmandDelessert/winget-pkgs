@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ArmandDelessert.DySS-Cockpit
+PackageVersion: 0.0.0-dev.19
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: DyssCockpit.exe
+ArchiveBinariesDependOnPath: true
+Installers:
+- Architecture: arm64
+  InstallerUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows/releases/download/dev/DyssCockpit-0.0.0-dev.19-win-arm64.zip
+  InstallerSha256: e0b034fc7797bacec8117f4684445c69de7c770623bae836f81154321fb6e11c
+- Architecture: x64
+  InstallerUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows/releases/download/dev/DyssCockpit-0.0.0-dev.19-win-x64.zip
+  InstallerSha256: 19a4ba14803e052106faab7747b0bf51fa3082c77da47b1b5b9fc7d5aaa00450
+ManifestType: installer
+ManifestVersion: 1.12.0

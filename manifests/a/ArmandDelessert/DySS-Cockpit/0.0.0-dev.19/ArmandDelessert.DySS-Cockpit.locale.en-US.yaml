@@ -1,0 +1,25 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArmandDelessert.DySS-Cockpit
+PackageVersion: 0.0.0-dev.19
+PackageLocale: en-US
+Publisher: Armand Delessert
+PublisherUrl: https://armanddelessert.github.io/
+PublisherSupportUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows
+Author: Armand Delessert
+PackageName: DySS Cockpit
+PackageUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows
+License: MIT
+LicenseUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows/blob/main/LICENSE
+Copyright: Copyright © 2026 Armand Delessert
+CopyrightUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows/blob/main/LICENSE
+ShortDescription: Unofficial Windows client for the Dyson Spot+Scrub AI (RB05) robot vacuum
+Description: "DySS Cockpit est une application Windows non officielle pour piloter le robot aspirateur et laveur Dyson Spot+Scrub AI (nom interne RB05) : nettoyer des pièces ou une zone, suivre le robot en direct sur la carte, gérer cartes, pièces, zones et horaires, consulter l'historique. Son nom vient de Dyson Spot+Scrub."
+Tags:
+- Dyson
+- Spot+Scrub
+- MyDyson
+ReleaseNotesUrl: https://github.com/ArmandDelessert/dyson-spot-scrub-windows/releases/tag/dev
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
